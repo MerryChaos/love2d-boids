@@ -1,5 +1,5 @@
 # Usage
-Use sliders in top left do adjust settings.
+Use sliders in top left to adjust settings.
 
 Lock sliders by ticking the little box on the right of the sliders.
 This will prevent the user from changing the value and it won't be randomized.
