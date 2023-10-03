@@ -12,7 +12,7 @@ This will prevent the user from changing the value and it won't be randomized.
 
 `F11`: toggle fullscreen
 
-# Distributing with LÖVE:
+# Distributing with LÖVE
 
 Packaging for Windows:
 
