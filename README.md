@@ -23,11 +23,15 @@ Zip the entire game folder (all your .lua files, assets, etc.) and change the fi
 Download the LÖVE binary for Windows from the official website.
 Concatenate the LÖVE executable and your .love file:
 
-```
-copy /b love.exe+YourGame.love YourGame.exe.
+#### Using PowerShell:
+```cmd
+copy /b love.exe+YourGame.love YourGame.exe
 ```
 
 You might also concatenate the dll files and license files and pack everything into a zip file.
 
-### 3. Distribution:
-You may now distribute the .exe file or the zip file to Windows users.
+### 3. Adding the .dll files
+Zip the newly created .exe file with the LÖVE .dll files.
+
+### 4. Distribution:
+You can now distribute the zip file to Windows users.
